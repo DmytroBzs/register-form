@@ -1,7 +1,5 @@
-// metadataIds.ts
 
 export const metadataIds = {
-  // User fields
   USER_FIRST_NAME_ID: 'user_first_name',
   USER_LAST_NAME_ID: 'user_last_name',
   USER_TITLE_ID: 'user_title',

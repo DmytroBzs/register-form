@@ -15,9 +15,7 @@ const ClientRegisterForm: React.FC = () => {
   const [threeStepData, setThreeStepData] = useState<RegistrationFormData>({});
   const formRef = useRef<FormInstance>(null);
 
-  //   const hasSecondStep = true;
   const hasThreeStep = true;
-  //   const collectUserMetadata = true;
 
   const validateAndProceed = async (
     nextStep: number,
